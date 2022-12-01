@@ -209,3 +209,89 @@ figcaption{
     text-align: center;
     text-shadow: 1px 1px #000000;
 }
+
+.modal {
+    display: none; 
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.modal_content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 50%;
+
+}
+
+.modal_content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 54px;
+    /* letter-spacing: 0.105em; */
+    text-transform: uppercase;
+    color: #ff3333;
+    -webkit-text-stroke: 0.01px #000000;
+    font-style: oblique;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 0.5px 0.5px #000000;
+}
+
+.subtitle_modal h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.subtitle_modal{
+    padding-bottom: 20px;
+}
+
+.detail_modal p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.detail_modal{
+    padding-bottom: 20px;
+}
+  
+  /* The Close Button */
+.close_modal {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close_modal:hover,
+.close_modal:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -22,15 +22,10 @@
 </head>
 <body>
     <main>
+
         <section class="countdown_section">
             <p class="countdown_description">Ready for ...</p>
             <h1 id="lalla">Lallapallooza?!!</h1>
-            <!-- <ul class="time_name">
-                <li>Dias</li>
-                <li>Horas</li>
-                <li>Minutos</li>
-                <li>Segundos</li>
-            </ul> -->
             <ul class='countdown_exhibition' id="countdown_id">
                 <li class="time_cell">
                     <p class="time_name"><b>Dias</b></p>
@@ -65,12 +60,44 @@
             <button id="subscribe_button">Subscribe</button>
             </div>
         </section>
+        
         <section class="image_promotional_section">
             <div class="poster_box">
-                <img src="./assets/poster.jpg" alt="Makunouchi Ippo versus Sendou Takeshi poster">
+                <img src="./assets/poster.jpg" alt="Sendou Takeshi versus Makunouchi Ippo poster">
                 <!-- <figcaption>COPYRIGHT (C) 2022 KODANSHA LTD. ALL RIGHTS RESERVED.</figcaption> -->
             </div>
         </section>
+
+        <div id="modal_subscribe" class="modal">
+            <div class="modal_content">
+              <span class="close_modal">&times;</span>
+              
+                <h1 class="modal_title">Lallapallooza!!</h1>
+              
+                <div class="subtitle_modal">
+                    <h2>For the Japan's Featherweight Champion Boxing Title!</h2>
+                    <h2>Sendou Takeshi vs Makunouchi Ippo</h2>
+                </div>
+                
+                <div class="detail_modal">
+                    <p>Subscribe for news about the fight that will decide who will take the belt home!</p>
+                    <p>Pugilist's status, interviews, behind the scenes and more... </p>
+                </div>
+
+                <form action="" id="modal_form">
+                    <div class="modal_box">
+                        <input type="text" id="subscribe_first_name" placeholder="First Name">
+                        <br>
+                        <input type="text" id="subscribe_last_name" placeholder="Last Name">
+                        <br>
+                        <input type="email" name="" id="subscribe_mail" placeholder="Your E-mail">
+                        <br>
+                        <button>Send</button>
+                    </div>
+                </form>
+            </div> 
+        </div>
+
     </main>    
 </body>
 </html>
