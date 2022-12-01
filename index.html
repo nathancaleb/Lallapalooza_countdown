@@ -1,0 +1,76 @@
+<!--
+    * DESAFIO 06
+    https://efficient-sloth-d85.notion.site/Desafio-Countdown-4572ce6f5c91469abe0171f454a13e3f
+
+    * FIGMA
+    https://www.figma.com/file/woSBFMKgkdCOMzrcwtiyJv/DD-Countdown-Copy?fuid=1151503848747409426
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>The Lallapalooza - Countdown</title>
+</head>
+<body>
+    <main>
+        <section class="countdown_section">
+            <p class="countdown_description">Ready for ...</p>
+            <h1 id="lalla">Lallapallooza?!!</h1>
+            <!-- <ul class="time_name">
+                <li>Dias</li>
+                <li>Horas</li>
+                <li>Minutos</li>
+                <li>Segundos</li>
+            </ul> -->
+            <ul class='countdown_exhibition' id="countdown_id">
+                <li class="time_cell">
+                    <p class="time_name"><b>Dias</b></p>
+                    <p class="counter_numbers" id="count_days"></p>
+                </li>
+                <li class="colon_sign">
+                    <p class="colon_tag">:</p>
+                </li>
+                <li class="time_cell">
+                    <p class="time_name"><b>Horas</b></p>
+                    <p class="counter_numbers" id="count_hours"></p>
+                </li>
+                <li class="colon_sign">
+                    <p class="colon_tag">:</p>
+                </li>
+                <li class="time_cell">
+                    <p class="time_name"><b>Minutos</b></p>
+                    <p class="counter_numbers" id="count_minutes"></p>
+                </li>
+                <li class="colon_sign">
+                    <p class="colon_tag">:</p>
+                </li>
+                <li class="time_cell">
+                    <p class="time_name"><b>Segundos</b></p>
+                    <p class="counter_numbers" id="count_seconds"></p>
+                </li>
+            </ul>
+            <p id="finish"></p>
+            <!-- <p id='countdown'></p> --> <!-- CONTADOR UNICO -->
+            <p class="subscribe_description">Subscribe for more details.</p>
+            <div id="button_box">
+            <button id="subscribe_button">Subscribe</button>
+            </div>
+        </section>
+        <section class="image_promotional_section">
+            <div class="poster_box">
+                <img src="./assets/poster.jpg" alt="Makunouchi Ippo versus Sendou Takeshi poster">
+                <!-- <figcaption>COPYRIGHT (C) 2022 KODANSHA LTD. ALL RIGHTS RESERVED.</figcaption> -->
+            </div>
+        </section>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,211 @@
+/*  COLOR SCHEME
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+
+  FONT SCHEME
+    font-family: 'Poppins', sans-serif;
+    --Font Weight: 300, 400 e 500
+*/
+
+ul{
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/bg_gray_definitive.jpeg  );
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.countdown_section{
+    flex-basis: 50%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.countdown_description, #finish{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #f74b4b;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#lalla{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 54px;
+    /* letter-spacing: 0.105em; */
+    text-transform: uppercase;
+    color: #ff3333;
+    -webkit-text-stroke: 0.01px #ffffff;
+    font-style: oblique;
+    text-align: center;
+    padding-bottom: 40px;
+    text-shadow: 0.5px 0.5px #000000;
+}
+
+.countdown_exhibition{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.time_cell{
+    min-width: 140px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time_name{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+.colon_sign{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    color: #ff3333;
+    padding-top: 18px;
+    /* -webkit-text-stroke: 0.5px #ffffff;
+    text-shadow: 0 0 3px #ffffff; */
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.counter_numbers{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    text-align: center;
+    color: #ff3333;
+    min-width: 130px;
+    /* -webkit-text-stroke: 0.5px #ffffff; */
+    /* text-shadow: 0 0 3px #ffffff; */
+    text-shadow: 1px 1px 3px #000000;   
+    
+}
+
+/* STYLE PARA O CONTADOR UNICO*/
+/* #countdown{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    text-align: center;
+    color: #c40000;
+    border: 2px dashed greenyellow;
+} */
+
+.subscribe_description{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ff3333;
+    text-align: center;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#button_box{
+    text-align: center;
+}
+
+#subscribe_button{
+    width: 160px;
+    height: 46px;
+    background: #ff6363;
+    border-radius: 10px;
+    border: none;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.image_promotional_section{
+    flex-basis: 50%;
+}
+
+.poster_box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poster_box img{
+    height: 100%;
+    width: 50%;
+    filter: drop-shadow(0 0 0.75rem rgb(220, 20, 20));
+    padding-bottom: 30px;    
+}
+
+#finish{
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+#finish a, #finish a:visited{
+    color: #f74b4b;
+    text-decoration: none;
+}
+
+figcaption{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
