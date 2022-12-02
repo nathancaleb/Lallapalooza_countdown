@@ -57,7 +57,7 @@
             <!-- <p id='countdown'></p> --> <!-- CONTADOR UNICO -->
             <p class="subscribe_description">Subscribe for more details.</p>
             <div id="button_box">
-            <button id="subscribe_button">Subscribe</button>
+            <button id="subscribe_button" class="button_style">Subscribe</button>
             </div>
         </section>
         
@@ -70,8 +70,9 @@
 
         <div id="modal_subscribe" class="modal">
             <div class="modal_content">
-              <span class="close_modal">&times;</span>
-              
+                <div class="close_box">
+                    <span class="close_modal">&times;</span>
+                </div>
                 <h1 class="modal_title">Lallapallooza!!</h1>
               
                 <div class="subtitle_modal">
@@ -86,13 +87,13 @@
 
                 <form action="" id="modal_form">
                     <div class="modal_box">
-                        <input type="text" id="subscribe_first_name" placeholder="First Name">
-                        <br>
-                        <input type="text" id="subscribe_last_name" placeholder="Last Name">
-                        <br>
-                        <input type="email" name="" id="subscribe_mail" placeholder="Your E-mail">
-                        <br>
-                        <button>Send</button>
+                        <input type="text" id="subscribe_first_name" placeholder="First Name" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" title="Please, insert your first name here.">
+                        <br><br>
+                        <input type="text" id="subscribe_last_name" placeholder="Last Name" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" title="Please, insert your last name here.">
+                        <br><br>
+                        <input type="email" name="" id="subscribe_mail" placeholder="Your E-mail" required="required"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please, insert a valid e-mail address here.">
+                        <br><br>
+                        <button type="submit" id="modal_send" class="button_style">Send</button>
                     </div>
                 </form>
             </div> 
