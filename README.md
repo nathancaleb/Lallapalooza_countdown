@@ -50,7 +50,7 @@ COPYRIGHT © 2022 KODANSHA LTD. ALL RIGHTS RESERVED.
 ________________________________
 ## - STATUS PROJETO
 
-**__NÃO CONCLUIDO__**
+*__NÃO CONCLUIDO__*
 
 > futuras implementações
 
