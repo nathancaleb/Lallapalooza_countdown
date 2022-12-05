@@ -62,7 +62,6 @@ main{
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 3.375rem;
-    /* letter-spacing: 0.105em; */
     text-transform: uppercase;
     color: #ff3333;
     -webkit-text-stroke: 0.001rem #ffffff;
@@ -105,8 +104,6 @@ main{
     line-height: 6.75rem;
     color: #ff3333;
     padding-top: 1.125rem;
-    /* -webkit-text-stroke: 0.5px #ffffff;
-    text-shadow: 0 0 3px #ffffff; */
     text-shadow: 0.063rem 0.063rem 0.188rem #000000;
 }
 
@@ -119,8 +116,6 @@ main{
     text-align: center;
     color: #ff3333;
     min-width: 8.125rem;
-    /* -webkit-text-stroke: 0.5px #ffffff; */
-    /* text-shadow: 0 0 3px #ffffff; */
     text-shadow: 0.063rem 0.063rem 0.188rem #000000;   
     
 }
@@ -241,7 +236,6 @@ figcaption{
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 3.375rem;
-    /* letter-spacing: 0.105em; */
     text-transform: uppercase;
     color: #ff3333;
     -webkit-text-stroke: 0.001rem #000000;

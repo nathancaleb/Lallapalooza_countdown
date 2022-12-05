@@ -10,6 +10,10 @@ Projeto construído para estudo pratico dos ensinamentos adquiridos no curso Dis
 
 Criar uma pagina com um contador regressivo (dias/horas/minutos/segundos) informando quando tempo falta para um lançamento, evento, etc. Além de um botão de inscrição para receber detalhes sobre o evento.
 
+> Escopo Extra
+
+Ao clicar no botão de inscrição, irá abrir um modal, com um formulario com campos para inserção de nome e e-mail e um botão para concluir a inscrição.
+
 > Tematica
 
 A tematica retrata um evento que acontece no universo do mangá Hajime No Ippo, do autor George Morikawa. O evento em questão é uma luta de boxe profissional categoria peso pena nomeada como Lallapalooza. Acontecera o combate entre o protagonista da historia Makunouchi Ippo e o atual campeão japones Takeshi Sendou, onde o vencedor saira com o cinturão de campeão.
@@ -39,6 +43,27 @@ COPYRIGHT © 2022 KODANSHA LTD. ALL RIGHTS RESERVED.
 
 ![preview](./.github/preview_final.png)
 
+* Ao clicar no botão de inscrição, um modal aparece com formulario para inserção de nome, sobrenome e e-mail. O script faz a verificação das informações inseridas, onde campos vazios ou caracteres e formatos fora do padrão, no caso, e-mail, não serão aceitos e o preenchimento não será concluido. Caso esteja tudo de acordo, uma mensagem de agradecimento é impresso e retornar para o contador. 
+
+![preview](./.github/preview_subscribe.png)
+
+________________________________
+## - STATUS PROJETO
+
+**__NÃO CONCLUIDO__**
+
+> futuras implementações
+
+* Botão para definir a data e horario final;
+
+* Banco de dados para as incrições;
+
+* Pagina responsiva;
+
+> Provaveis implementações
+
+* Envio de um e-mail de confirmação;
+
 ________________________________
 ## - TECNOLOGIAS
 
@@ -48,7 +73,7 @@ ________________________________
 ________________________________
 ## - PROJETO
 
-link a ser disponibilizado.
+[Clique aqui para acessar o projeto;](https://nathancaleb.github.io/Lallapalooza_countdown/)
 ________________________________
 ## - CONTATO
 
