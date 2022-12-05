@@ -17,7 +17,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <script src="./script.js"></script>
     <title>The Lallapalooza - Countdown</title>
 </head>
 <body>
@@ -88,17 +87,31 @@
                 <form action="" id="modal_form">
                     <div class="modal_box">
                         <input type="text" id="subscribe_first_name" placeholder="First Name" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" title="Please, insert your first name here.">
-                        <br><br>
+                        <p id="erro_message_first_name" class="subscribe_alert_erro"></p>
+                        <br>
                         <input type="text" id="subscribe_last_name" placeholder="Last Name" required="required" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" title="Please, insert your last name here.">
-                        <br><br>
+                        <p id="erro_message_last_name" class="subscribe_alert_erro"></p>
+                        <br>
                         <input type="email" name="" id="subscribe_mail" placeholder="Your E-mail" required="required"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Please, insert a valid e-mail address here.">
-                        <br><br>
-                        <button type="submit" id="modal_send" class="button_style">Send</button>
+                        <p id="erro_message_mail" class="subscribe_alert_erro"></p>
+                        <br>
+                        <button type="button" id="form_send" class="button_style">Send</button>
                     </div>
                 </form>
             </div> 
         </div>
 
-    </main>    
+        <div id="thankyou_box">
+            <div id="thankyou_content">
+                <!-- ANTIGO BOTÃO DE FECHAR, SUBSTITUIDO POR CLICK NA TELA OU CLICK DO ESC-->
+                <!-- <div class="close_box" id="thankyou_close">
+                    <span class="close_modal">&times;</span>
+                </div> -->
+                <p>Thank you for your subscribe and may the best man win!</p>
+            </div>
+        </div>
+
+    </main>
 </body>
+<script src="./script.js"></script> 
 </html>
