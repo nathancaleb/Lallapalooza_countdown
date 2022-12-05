@@ -48,37 +48,37 @@ main{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #f74b4b;
     text-align: center;
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 0.063rem 0.063rem 0.188rem #000000;
 }
 
 #lalla{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 54px;
+    font-size: 3.75rem;
+    line-height: 3.375rem;
     /* letter-spacing: 0.105em; */
     text-transform: uppercase;
     color: #ff3333;
-    -webkit-text-stroke: 0.01px #ffffff;
+    -webkit-text-stroke: 0.001rem #ffffff;
     font-style: oblique;
     text-align: center;
-    padding-bottom: 40px;
-    text-shadow: 0.5px 0.5px #000000;
+    padding-bottom: 2.5rem;
+    text-shadow: 0.031rem 0.031rem #000000;
 }
 
 .countdown_exhibition{
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .time_cell{
-    min-width: 140px;
+    min-width: 8.75rem;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -89,39 +89,39 @@ main{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
     text-transform: capitalize;
     color: #ffffff;
     text-align: center;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 0.063rem 0.063rem #000000;
 }
 
 .colon_sign{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
-    line-height: 108px;
+    font-size: 4.5rem;
+    line-height: 6.75rem;
     color: #ff3333;
-    padding-top: 18px;
+    padding-top: 1.125rem;
     /* -webkit-text-stroke: 0.5px #ffffff;
     text-shadow: 0 0 3px #ffffff; */
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 0.063rem 0.063rem 0.188rem #000000;
 }
 
 .counter_numbers{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
-    line-height: 108px;
+    font-size: 4.5rem;
+    line-height: 6.75rem;
     text-align: center;
     color: #ff3333;
-    min-width: 130px;
+    min-width: 8.125rem;
     /* -webkit-text-stroke: 0.5px #ffffff; */
     /* text-shadow: 0 0 3px #ffffff; */
-    text-shadow: 1px 1px 3px #000000;   
+    text-shadow: 0.063rem 0.063rem 0.188rem #000000;   
     
 }
 
@@ -141,12 +141,12 @@ main{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
     color: #ff3333;
     text-align: center;
-    padding-bottom: 30px;
-    text-shadow: 1px 1px 3px #000000;
+    padding-bottom: 1.875rem;
+    text-shadow: 0.063rem 0.063rem 0.188rem #000000;
 }
 
 #button_box{
@@ -154,17 +154,17 @@ main{
 }
 
 .button_style{
-    width: 160px;
-    height: 46px;
+    width: 10rem;
+    height: 2.875rem;
     background: #ff6363;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: none;
     
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
     text-align: center;
 }
@@ -174,7 +174,7 @@ main{
 }
 
 .poster_box{
-    height: 500px;
+    height: 31.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,11 +185,11 @@ main{
     height: 100%;
     width: 50%;
     filter: drop-shadow(0 0 0.75rem rgb(220, 20, 20));
-    padding-bottom: 30px;    
+    padding-bottom: 1.875rem;    
 }
 
 #finish{
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
     text-decoration: none;
 }
 
@@ -202,18 +202,18 @@ figcaption{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 0.625rem;
+    line-height: 0.625rem;
     text-transform: capitalize;
     color: #ffffff;
     text-align: center;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 0.063rem 0.063rem #000000;
 }
 
 #modal_subscribe{
     display: none;
     position: fixed;
-    padding-top: 50px;
+    padding-top: 3.125rem;
     left: 0;
     top: 0;
     width: 100%;
@@ -230,8 +230,8 @@ figcaption{
     text-align: center;
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888888;
+    padding: 1.25rem;
+    border: 0.063rem solid #888888;
     width: 50%;
 
 }
@@ -239,23 +239,23 @@ figcaption{
 .modal_content h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 54px;
+    font-size: 3.75rem;
+    line-height: 3.375rem;
     /* letter-spacing: 0.105em; */
     text-transform: uppercase;
     color: #ff3333;
-    -webkit-text-stroke: 0.01px #000000;
+    -webkit-text-stroke: 0.001rem #000000;
     font-style: oblique;
     text-align: center;
-    padding-bottom: 20px;
-    text-shadow: 0.5px 0.5px #000000;
+    padding-bottom: 1.25rem;
+    text-shadow: 0.031rem 0.031rem #000000;
 }
 
 .subtitle_modal h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #000000;
@@ -263,14 +263,14 @@ figcaption{
 }
 
 .subtitle_modal{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .detail_modal p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #000000;
@@ -278,16 +278,16 @@ figcaption{
 }
 
 .detail_modal{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .modal_box input, .modal_box input::placeholder{
-    width: 500px;
-    height: 50px;
+    width: 31.25rem;
+    height: 3.125rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 0.938rem;
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #474747;
@@ -295,14 +295,14 @@ figcaption{
 }
 
 .modal_box input{
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
   
 .subscribe_alert_erro{
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     color: #ff0000;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 /* Botão de fechar*/
@@ -314,7 +314,7 @@ figcaption{
   
 .close_modal {
     color: #aaaaaa;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
 }
   
@@ -328,7 +328,7 @@ figcaption{
 #thankyou_box{
     display: none;
     position: fixed;
-    padding-top: 50px;
+    padding-top: 3.125rem;
     left: 0;
     top: 0;
     width: 100%;
@@ -345,17 +345,17 @@ figcaption{
     text-align: center;
     background-color: #ff3333;
     margin: auto;
-    padding: 40px;
+    padding: 2.5rem;
     width: 50%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 10px;
+    font-size: 1.25rem;
+    line-height: 0.625rem;
     color: #ffffff;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 #thankyou_close{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
